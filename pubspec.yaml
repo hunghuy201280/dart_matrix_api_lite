@@ -1,13 +1,14 @@
 name: matrix_api_lite
 description: Dead simple data model for the matrix.org client-server API.
-version: 0.4.1
+version: 1.7.4
 homepage: https://famedly.com
 
 environment:
-  sdk: ">=2.12.0 <3.0.0"
+  sdk: '>=3.0.0 <4.0.0'
 
 dependencies:
-  http: ^0.13.0
+  enhanced_enum: ^0.2.4
+  http: ^1.2.1
   mime: ^1.0.0
 
 dev_dependencies:
